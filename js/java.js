@@ -250,7 +250,9 @@ submit.on('click', event, function(event){
 });
 
 
-$(".button-collapse").sideNav();
+$(".food").sideNav();
+$(".home").sideNav();
+
 
 
 // console.log(field);
