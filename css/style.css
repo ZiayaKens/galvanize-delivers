@@ -1,0 +1,42 @@
+.bgimg {
+  display: flex;
+  height: 200px;
+  /*background-image: url(http://www.todayifoundout.com/wp-content/uploads/2015/05/blurry-image.jpg);
+  background-image: responsive; */
+}
+
+.myimage {
+  position: absolute;
+  z-index: -10;
+  height: 200px;
+}
+.jumborow{
+  display: flex;
+  flex:1;
+
+}
+.jumbotext {
+  display: flex;
+  flex: 1;
+  text-align: center;
+}
+
+.pinktext {
+  font-size: 2em;
+}
+
+.taller {
+  display: flex;
+  flex-direction: column;
+  /*height: 100vh;*/
+}
+
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+ main {
+   flex: 1 0 auto;
+ }
