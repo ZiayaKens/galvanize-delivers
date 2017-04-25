@@ -239,11 +239,11 @@ submit.on('click', event, function(event){
   if (juiceboxcount == 0 && singlewafflecount == 0 && hotpocketcount == 0 && wetbreadcount == 0){
     Materialize.toast('You havent requested any snacks', 4000);
   }
+  else if (namefield.val() == '' || phonefield.val()=='' || addressfield.val()==''){
+    Materialize.toast('You have not entered all the person information', 4000);
+  }
   else {
-    if( namefield.val() == '' || phonefield.val()=='' || addressfield.val()==''){
-      Materialize.toast('You have not entered all the person information', 4000);
-    }
-    console.log(namefield.val());
+
     Materialize.toast('Your order has been paced', 4000);
   }
 
